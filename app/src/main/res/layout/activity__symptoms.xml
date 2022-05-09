@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_Symptoms">
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="232dp"
+        android:text="Most common symptoms: fever
+dry cough
+tiredness
+Less common symptoms:
+aches and pains
+sore throat
+diarrhoea
+conjunctivitis
+headache
+loss of taste or smell
+a rash on skin, or discolouration of fingers or toes
+Serious symptoms:
+difficulty breathing or shortness of breath
+chest pain or pressure
+loss of speech or movement"
+
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        app:srcCompat="@mipmap/ic_launcher_background" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_Goverments_Reaction">
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="382dp"
+        android:layout_height="232dp"
+        android:text="Onslaught of COVID-19: How Did Governments React and at What Point of the Crisis? The COVID-19 outbreak has taken many governments by surprise. While the crisis unfolds, it is instructive to explore how different governments reacted to the onslaught of an unknown disease. This research, using very recently collected and open-source data, meets this objective. The research reveals that, regarding 7 most commonly adopted preventive measures, governments have varied notably concerning their actions in relation to infection rate, disease rate, and timing of measures. The research also illustrates variations between governments for 6 countries: Australia, New Zealand, Spain, the United Kingdom, Italy, and the United States. As revealed in the summary independent-samples t test and Hedges' g values, both Oceanian countries (Australia and New Zealand) reacted differently compared to the other countries, which may have played a role in their low death and infection rates to date."
+        tools:visibility="visible">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="213dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_2048" />
+
+</LinearLayout>

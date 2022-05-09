@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_Rummors_Cleared">
+
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="382dp"
+        android:layout_height="259dp"
+        android:text="How can you spot a rumor?
+When evaluating information you find on social media or other outlets, it is important to follow these guidelines:
+
+Use trusted sources, such as official government or health care websites and social media channels.
+Evaluate other information from the source, including links and sources, to see if it appears reliable.
+Search other credible resources to see if they are sharing similar information.
+Learn more about coronavirus myths
+Coronavirus Disease 2019: Myth vs. Fact">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_af8d652b57e45289dd6a70a59405ee6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

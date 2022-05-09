@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_Vaccine">
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="382dp"
+        android:layout_height="217dp"
+        android:text="December 21, the FDA has given emergency use authorization (EUA) to two COVID-19 vaccines. As more vaccine makers submit their applications for emergency use to the FDA, more vaccines should become available.
+
+Even though COVID-19 vaccines are being developed more quickly than usual, vaccine safety is still a top priority in all phases of vaccine development, approval and post-approval monitoring. While steps are being streamlined or overlapped, none of them are being skipped. "
+        tools:visibility="visible">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_114241106_vaccineillus976_rtrs" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
